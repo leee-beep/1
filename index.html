@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lillian Lee | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for Lillian Lee."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="#hero" class="site-logo">Lillian Lee</a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+          type="button"
+        >
+          ☰
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobileMenu" aria-label="Mobile navigation">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container hero-container">
+          <p class="hero-label">Personal Website</p>
+          <h1 class="hero-name">Lillian Lee</h1>
+          <p class="hero-tagline">
+            Aspiring Supply Chain &amp; Business Analyst turning data into
+            actionable insights.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="button button-primary">View Work</a>
+            <a href="#contact" class="button button-secondary">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container section-container">
+          <div class="section-heading">
+            <p class="section-label">About</p>
+            <h2 class="section-title">A little about me</h2>
+          </div>
+
+          <div class="about-card">
+            <p class="about-text">
+              I am a Business Administration student with a strong interest in
+              supply chain, business analytics, and data-driven decision making.
+              I enjoy turning information into clear insights and hope to build
+              solutions that connect business needs with practical analysis.
+            </p>
+            <p class="about-text">
+              My current focus is developing a solid portfolio that reflects my
+              analytical mindset, professional growth, and long-term goal of
+              working in tech-oriented business roles.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container section-container">
+          <div class="section-heading">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title">Let’s connect</h2>
+          </div>
+
+          <div class="contact-card">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <span class="contact-type">Email</span>
+                <a href="mailto:yourname@example.com" class="contact-link">
+                  yourname@example.com
+                </a>
+              </li>
+              <li class="contact-item">
+                <span class="contact-type">GitHub</span>
+                <a
+                  href="https://github.com/yourusername"
+                  class="contact-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/yourusername
+                </a>
+              </li>
+              <li class="contact-item">
+                <span class="contact-type">LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/yourprofile"
+                  class="contact-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  linkedin.com/in/yourprofile
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
